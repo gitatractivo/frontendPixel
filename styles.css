@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("./TemplateData/GoogleSans-Bold-v1.27.ttf");
+}
+@font-face {
+  font-family: "Google Sans Regular";
+  src: url("./TemplateData/GoogleSans-Regular.ttf");
+}
+@layer utilities {
+  * {
+    font-family: "Google Sans Regular";
+    margin: 0;
+    padding: 0;
+  }
+  .content-auto {
+    content-visibility: auto;
+  }
+}
+.innerText {
+  background: var(
+    --Bard,
+    radial-gradient(
+      169.36% 169.36% at -3.41% -54.22%,
+      #1ba1e3 0%,
+      #1ba1e3 0.01%,
+      #5489d6 30.02%,
+      #996bcf 54.55%,
+      #df5663 82.54%,
+      #f49c46 100%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.outer-bg {
+  background: center/contain url("./TemplateData/Feature-Bgs/VideoBoostNew.png")
+    no-repeat;
+}
+
+#unity-canvas {
+  outline: 8.736px solid #fff;
+  background: #f6f7fa;
+  border-radius: 28.295px;
+  box-shadow: 0px 1.456px 41.494px 0px rgba(0, 0, 0, 0.12);
+  z-index: 20;
+  border-radius: 28.295px;
+  border: none;
+}
+
+#unity-loading-bar {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+#unity-logo {
+  width: 154px;
+  height: 130px;
+  background: url("unity-logo-dark.png") no-repeat center;
+}
+#unity-progress-bar-empty {
+  width: 141px;
+  height: 18px;
+  margin-top: 10px;
+  margin-left: 75%;
+  background: url("progress-bar-empty-dark.png") no-repeat center;
+}
+#unity-progress-bar-full {
+  width: 0%;
+  height: 18px;
+  margin-top: 10px;
+  background: url("progress-bar-full-dark.png") no-repeat center;
+}
+
+/* #default-modal {
+  bottom: 0px;
+} */
+@media (max-width: 768px) {
+  .outer-bg {
+    background: none;
+  }
+  #unity-fullscreen-button {
+    display: none;
+  }
+}
+
+.button-best {
+  filter: drop-shadow(-1.5px 2px 0px #1777c3);
+}
+
+#unity-fullscreen-button {
+  cursor: pointer;
+  height: 60px;
+  width: 132px;
+  background: url("TemplateData/fullscreen-button.png") no-repeat center/contain;
+}
+
+
+

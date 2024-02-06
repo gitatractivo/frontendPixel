@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="relative flex flex-col gap-7">
+      <div
+        id="backdrop"
+        class="absolute transition-all duration-300 hidden inset-0 w-full h-full z-20 bg-gray-500 opacity-30"
+      ></div>
+      <!-- nav -->
+
+      <img
+        src="./TemplateData/Frame 1321318318.svg"
+        alt=""
+        class="w-full hidden md:block"
+      />
+      <img
+        src="./TemplateData/Group 48097713.svg"
+        alt=""
+        class="w-full md:hidden"
+      />
+
+      <div class="w-full flex flex-col gap-5 px-[5%]">
+        <!-- bread crumb -->
+
+        <img
+          src="./TemplateData/Group 48097715.svg"
+          alt=""
+          class="w-[438px] hidden md:block"
+        />
+        <img
+          src="./TemplateData/See All Unlocked Cell Phones.svg"
+          alt=""
+          class="w-[155px] md:hidden"
+        />
+
+        <!-- hero -->
+        <div
+          class="hidden md:flex flex-col lg:flex-row gap-5 mt-2 justify-between"
+        >
+          <div class="flex flex-col gap-28 w-full lg:w-1/2">
+            <img
+              src="./TemplateData/-original-imagtwh4kdbg5rvr 1.svg"
+              alt=""
+              class="w-1/2 mx-auto hidden md:block"
+            />
+            <img
+              src="./TemplateData/Group 48097719.svg"
+              alt=""
+              class="w-full mx-auto hidden md:block"
+            />
+          </div>
+          <img
+            src="./TemplateData/Group 48097720.png"
+            alt=""
+            class="w-full lg:w-[40%]"
+          />
+        </div>
+        <img
+          src="./TemplateData/Group 48097721.png"
+          alt=""
+          class="w-full md:hidden"
+        />
+      </div>
+
+      <div
+        class="w-full relative md:w-[calc(100%-48px)] overflow-x-hidden min-h-screen flex flex-col justify-start items-center gap-5 bg-white md:mx-6 my-10 md:my-32 outer-bg py-20 md:rounded-[73px] md:border"
+      >
+        <div
+          id="default-modal"
+          class="absolute hidden bottom-[100px] z-50 w-full min-h-fit p-4 overflow-x-hidden overflow-y-auto md:inset-0 max-h-screen"
+        >
+          <div
+            class="relative p-4 flex items-center justify-center w-full max-w-2xl max-h-full"
+          >
+            <div
+              class="relative flex gap-4 flex-col p-7 bg-white max-w-[412px] max-h-[912px] rounded-3xl shadow"
+            >
+              <h1
+                class="text-left text-[#1777C3] text-2xl"
+                id="contentMobile-2"
+              >
+                How to use Best Take?
+              </h1>
+              <img
+                src="./TemplateData/Frame 1321318307.svg"
+                alt=""
+                class="w-full h-fit"
+                id="cm3"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2 mx-auto">
+          <h1
+            class="text-[#3b4349] text-center text-[40px] sm:text-6xl md:text-7xl font-semibold"
+          >
+            Experience <span class="innerText"> Pixel AI </span>
+          </h1>
+
+          <p
+            class="text-black text-center text-md sm:text-xl md:text-3xl font-base opacity-50"
+          >
+            Explore Amazing New Features in Pixel 8 & 8 pro
+          </p>
+        </div>
+
+        <div id="unity-container" class="unity-desktop">
+          <canvas id="unity-canvas" class="z-20" tabindex="-1"></canvas>
+          <div id="unity-loading-bar">
+            <div id="unity-progress-bar-full"></div>
+            <div id="unity-progress-bar-empty"></div>
+          </div>
+          <div id="unity-warning"></div>
+        </div>
+        <div id="unity-fullscreen-button" class="m-12"></div>
+
+        <img
+          src="./TemplateData/Group 48097725.svg"
+          alt=""
+          class="w-[323px]  mt-5 md:hidden mx-auto power h-fit"
+        />
+
+        <div class="relative hidden mt-4 flex-col items-center gap-5" id="pixel">
+          <!-- modal -->
+
+          <button
+            class="flex gap-2 button-best bg-[#E0F1FD] hover:opacity-90 font-semibold text-[#1777C3] w-fit outline-none border-none rounded-full px-4 py-2"
+          >
+            <svg
+              width="16"
+              height="15"
+              viewBox="0 0 16 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="my-auto"
+            >
+              <mask
+                id="mask0_172_1324"
+                style="mask-type: alpha"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="16"
+                height="15"
+              >
+                <rect
+                  x="0.328125"
+                  y="0.00390625"
+                  width="14.9919"
+                  height="14.9919"
+                  fill="#D9D9D9"
+                />
+              </mask>
+              <g mask="url(#mask0_172_1324)">
+                <path
+                  d="M7.19855 11.8718C6.85498 11.8718 6.56087 11.7494 6.31621 11.5048C6.07155 11.2601 5.94922 10.966 5.94922 10.6224V4.37579C5.94922 4.03223 6.07155 3.73812 6.31621 3.49346C6.56087 3.24879 6.85498 3.12646 7.19855 3.12646H13.4452C13.7888 3.12646 14.0829 3.24879 14.3275 3.49346C14.5722 3.73812 14.6945 4.03223 14.6945 4.37579V10.6224C14.6945 10.966 14.5722 11.2601 14.3275 11.5048C14.0829 11.7494 13.7888 11.8718 13.4452 11.8718H7.19855ZM10.0095 8.74844L9.38487 7.92076C9.32241 7.83747 9.23912 7.79843 9.13501 7.80364C9.0309 7.80884 8.94761 7.85309 8.88514 7.93638L8.18239 8.87337C8.0991 8.97749 8.0913 9.0868 8.15897 9.20132C8.22664 9.31585 8.32294 9.37311 8.44788 9.37311H12.1959C12.3208 9.37311 12.4145 9.31585 12.477 9.20132C12.5394 9.0868 12.529 8.97749 12.4457 8.87337L11.4463 7.51473C11.3838 7.43144 11.3005 7.3898 11.1964 7.3898C11.0923 7.3898 11.009 7.43144 10.9465 7.51473L10.0095 8.74844Z"
+                  fill="#1777C3"
+                />
+                <path
+                  d="M0.328125 3.75113V11.2471C0.328125 11.4241 0.387989 11.5724 0.507716 11.6922C0.627443 11.8119 0.775801 11.8718 0.952789 11.8718C1.12978 11.8718 1.27813 11.8119 1.39786 11.6922C1.51759 11.5724 1.57745 11.4241 1.57745 11.2471V3.75113C1.57745 3.57414 1.51759 3.42578 1.39786 3.30606C1.27813 3.18633 1.12978 3.12646 0.952789 3.12646C0.775801 3.12646 0.627443 3.18633 0.507716 3.30606C0.387989 3.42578 0.328125 3.57414 0.328125 3.75113Z"
+                  fill="#1777C3"
+                />
+                <rect
+                  x="2.82812"
+                  y="3.12646"
+                  width="1.87399"
+                  height="8.7453"
+                  rx="0.936996"
+                  fill="#1777C3"
+                />
+              </g>
+            </svg>
+
+            <span id="contentMobile"> Best Take </span>
+          </button>
+
+          <p class="text-[#1777C3] text-center px-3">
+            Combine similar photos into one fantastic picture where everyone
+            looks their best.
+          </p>
+
+          <button
+            id="modal-button"
+            class="flex gap-2 z-50 transition-all duration-300 bg-[#1777C3] hover:opacity-90 text-sm text-white w-fit rounded-full px-4 py-2 outline-none border-none"
+          >
+            <span id="contentMobile1"> How to use Best Take?</span>
+            <svg
+              class="w-3 h-3 my-auto transition-all duration-300 text-white dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 8"
+              id="cross"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 7 7.674 1.3a.91.91 0 0 0-1.348 0L1 7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <img
+        src="./TemplateData/Group 48097722.png"
+        alt=""
+        class="w-full lg:block hidden"
+      />
+      <img
+        src="./TemplateData/Screenshot 2024-01-20 at 3.57 2.png"
+        alt=""
+        class="w-[calc(100%-48px)] md:block mx-6 lg:hidden hidden"
+      />
+      <img
+        src="./TemplateData/Group 48097723.png"
+        alt=""
+        class="w-full md:block lg:hidden hidden"
+      />
+      <img
+        src="./TemplateData/Group 48097724 (1).png"
+        alt=""
+        class="w-[calc(100%-48px)] mb-10 mx-6 md:hidden block"
+      />
+    </div>
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script> -->
+    <!-- <script type="module">
+      import { initFlowbite } from "flowbite";
+
+      // initialize components based on data attribute selectors
+      initFlowbite();
+    </script> -->
+  </body>
+</html>
